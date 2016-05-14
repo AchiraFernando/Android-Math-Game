@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.achirafernando.coursework01.AboutGame"
+    android:background="#b19393">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> This game is a brain training game which asks you to calculate the answer for simple arithmetic expressions."
+                android:id="@+id/textView4"
+                android:layout_column="0"
+                android:layout_marginTop="10dp"
+                android:textSize="14.5dp"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> First you may select a game level out of Novice, Easy, Medium and Guru."
+                android:id="@+id/textView5"
+                android:layout_column="0"
+                android:layout_marginTop="10dp"
+                android:textSize="14.5dp"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> In the same window you may even activate hints."
+                android:id="@+id/textView6"
+                android:layout_column="0"
+                android:layout_marginTop="10dp"
+                android:textSize="14.5dp"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> There are 10 expressions to answer for one game."
+                android:id="@+id/textView7"
+                android:layout_column="0"
+                android:layout_marginTop="10dp"
+                android:textSize="14.5dp"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> At the end the total score is displayed."
+                android:id="@+id/textView8"
+                android:layout_column="0"
+                android:layout_marginTop="10dp"
+                android:textSize="14.5dp"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> For Novice level, you are given with an expression of exactly 2 terms."
+                android:id="@+id/textView9"
+                android:layout_column="0"
+                android:layout_marginTop="10dp"
+                android:textSize="14.5dp"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> For Easy level, you are given with an expression of maximum 3 terms."
+                android:id="@+id/textView10"
+                android:layout_column="0"
+                android:layout_marginTop="10dp"
+                android:textSize="14.5dp"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> For Medium level, you are given with an expression of maximum 4 terms."
+                android:id="@+id/textView11"
+                android:layout_column="0"
+                android:layout_marginTop="10dp"
+                android:textSize="14.5dp"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> For Guru level, you are given with an expression of minimum of 4 terms and maximum of 6 terms."
+                android:id="@+id/textView12"
+                android:layout_column="0"
+                android:layout_marginTop="10dp"
+                android:textSize="14.5dp"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> The expression should be calculated from left to right."
+                android:id="@+id/textView13"
+                android:layout_column="0"
+                android:layout_marginTop="10dp"
+                android:textSize="14.5dp"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> If hints are activated, you are given with 4 chances for each expression, plus &quot;>&quot; sign is shown if your answer is less than the expected and &quot;&lt;&quot; shows if your answer is greater than the expected."
+                android:id="@+id/textView14"
+                android:layout_column="0"
+                android:layout_marginTop="10dp"
+                android:textSize="14.5dp"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> If your answer is correct &quot;CORRECT!&quot; is displayed and if its wrong &quot;WRONG&quot; is displayed."
+                android:id="@+id/textView15"
+                android:layout_column="0"
+                android:layout_marginTop="10dp"
+                android:textSize="14.5dp"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="> Before exit the game you may save the current state, later on when continue button is pressed you can begin the game from where you left earlier."
+                android:id="@+id/textView16"
+                android:layout_column="0"
+                android:layout_marginTop="10dp"
+                android:textSize="14.5dp"
+                android:textColor="#000000"/>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

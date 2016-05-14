@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.achirafernando.coursework01.MainMenu"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#8f7a85">
+
+
+    <Button
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="New Game"
+        android:id="@+id/buttonNewGame"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_weight="0.05"
+        android:clickable="false"
+        android:onClick="newGame"
+        android:background="#b19393"/>
+
+    <Button
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:id="@+id/buttonContinue"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.05"
+        android:background="#b19393"
+        android:onClick="continueButton" />
+
+    <Button
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:id="@+id/buttonAbout"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.05"
+        android:background="#b19393"
+        android:onClick="aboutButton" />
+
+    <Button
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="Exit Game"
+        android:id="@+id/buttonExit"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.05"
+        android:background="#b19393"
+        android:nestedScrollingEnabled="false"
+        android:onClick="exitButton" />
+
+
+</LinearLayout>
+
+
